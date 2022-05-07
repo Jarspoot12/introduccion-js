@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Hairline&family=Orbitron:wght@500&family=Poiret+One&family=Rajdhani&family=Raleway:wght@100&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!--pantalla-->
+    <h1>calculadora básica</h1>
+    <div class="container">
+      <div id="pantalla"></div>
+      <button onclick="agregaValor(0)">0</button>
+      <button onclick="agregaValor(1)">1</button>
+      <button onclick="agregaValor(2)">2</button>
+      <button onclick="agregaValor(3)">3</button>
+      <button onclick="agregaValor(4)">4</button>
+      <button onclick="agregaValor(5)">5</button>
+      <button onclick="agregaValor(6)">6</button>
+      <button onclick="agregaValor(7)">7</button>
+      <button onclick="agregaValor(8)">8</button>
+      <button onclick="agregaValor(9)">9</button>
+      <button class="operacion" onclick="suma()">+</button>
+      <button class="operacion" onclick="resta()">-</button>
+      <button class="operacion" onclick="producto()">x</button>
+      <button class="operacion" onclick="division()">/</button>
+      <button class="operacion" onclick="igual()">=</button>
+      <button class="del" onclick="del()">DEL</button>
+      <button class="ac" onclick="ac()">AC</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
