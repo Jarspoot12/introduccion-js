@@ -3,7 +3,7 @@ var resultado = document.getElementById("pantalla");
 var valorA = 0;
 var valorB = 0;
  var operacion;
- var total = 0;
+ var total;
  //limpiadores y reseteos
 function clean(){ //para limpiar la pantalla cada vez que uso los operadores
     resultado.textContent = "";
@@ -19,6 +19,10 @@ function del(){
 //primera función
 function agregaValor(num){
     resultado.textContent = resultado.textContent + num;
+}
+function punto(){
+   
+    resultado.textContent= resultado.textContent + ".";
 }
 //operadores
 function suma(){
