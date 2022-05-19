@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feria U</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="bg-primary">
+      <div class="bg-efect">
+        <div class="container-fluid">
+          <div class="row">
+            <nav class="nav-bg navbar navbar-expand-md navbar-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Feria Universitaria</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Más universidades</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h1 class="text-center pt-5 text-white">
+                Encuentra tu universidad
+              </h1>
+              <div
+                class="bg-dark bg-gradient card bg-form shadow rounded-3 my-5 p-3"
+              >
+                <div class="card-body">
+                  <form id="form-busqueda">
+                    <div class="row text-light text-center">
+                      <div class="col">
+                        <label for="inputNombre" class="text-white-50"
+                          >Carrera</label
+                        >
+                        <input
+                          type="text"
+                          id="inputNombre"
+                          class="form-control text-white bg-transparent"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="inputUniversidad" class="text-white-50"
+                          >Universidad</label
+                        >
+                        <select
+                          name=""
+                          id="inputUniversidad"
+                          class="form-select text-white bg-transparent"
+                        >
+                          <option value="" selected>Seleccionar...</option>
+                          <option value="universidad del caribe">
+                            Universidad del Caribe
+                          </option>
+                          <option value="universidad anahuac cancun">
+                            Universidad Anáhuac Cancún
+                          </option>
+                          <option value="universidad tecnologica de cancun">
+                            UT Cancún
+                          </option>
+                        </select>
+                      </div>
+                      <div class="col">
+                        <label for="inputArea1" class="text-white-50"
+                          >Área</label
+                        >
+                        <select
+                          name=""
+                          id="inputArea1"
+                          class="form-select text-white bg-transparent"
+                        >
+                          <option value="" selected>Seleccionar...</option>
+                          <option value="ciencias e ingeniería">
+                            Ciencias e Ingeniería
+                          </option>
+                          <option value="turismo, gastronomía y hotelería">
+                            Turismo, Gastronomía y Hotelería
+                          </option>
+                          <option value="economía y negocios">
+                            Economía y Negocios
+                          </option>
+                          <option value="derecho">Derecho</option>
+                          <option value="diseño">Diseño</option>
+                          <option value="arquitectura">Arquitectura</option>
+                          <option value="artes">Artes</option>
+                          <option value="deporte">Deporte</option>
+                        </select>
+                      </div>
+                      <div class="col">
+                        <label for="inputCosto" class="text-white-50"
+                          >Colegiatura</label
+                        >
+                        <select
+                          name=""
+                          id="inputCosto"
+                          class="form-select text-white bg-transparent"
+                        >
+                          <option value="" selected>Seleccionar...</option>
+                          <option value="1">Pública</option>
+                          <option value="2">Privada</option>
+                        </select>
+                      </div>
+                      <div class="col d-flex align-items-end">
+                        <button
+                          class="btn btn-outline-secondary w-100 text-white my-4 my-sm-0"
+                        >
+                          Buscar
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="bg-dark text-white py-5">
+      <div class="container">
+        <div id="box-university" class="row row-cols-1 row-cols-lg-2">
+          <!-- <div class="col mb-3">
+                    <div class="card bg-secondary flex-row rounded-3">
+                        <div class="w-50">
+                            <img src="./transformers_img/01.jpg" class="img-fluid object-fit" alt="">
+                        </div>
+                        <div class="card-body w-50">
+                            <h2 class="card-text mb-0 text-capitalize">optimus prime</h2>
+                            <p class="card-text mb-3 text-capitalize">autobot</p>
+                            <p class="card-text mb-3 text-capitalize">Primera Aparición: Transformers</p>
+                            <p class="card-text mb-0">Es el noble líder de los Autobots. Su misión consiste en luchar contra los Decepticons y detenerlos. Su forma alternativa es un camión Peterbilt rojo y azul. La voz es de Peter Cullen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card bg-secondary flex-row rounded-3">
+                        <div class="w-50">
+                            <img src="./transformers_img/01.jpg" class="img-fluid object-fit" alt="">
+                        </div>
+                        <div class="card-body w-50">
+                            <h2 class="card-text mb-0 text-capitalize">optimus prime</h2>
+                            <p class="card-text mb-3 text-capitalize">autobot</p>
+                            <p class="card-text mb-3 text-capitalize">Primera Aparición: Transformers</p>
+  
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card bg-secondary flex-row rounded-3">
+                        <div class="w-50">
+                            <img src="./transformers_img/01.jpg" class="img-fluid object-fit" alt="">
+                        </div>
+                        <div class="card-body w-50">
+                            <h2 class="card-text mb-0 text-capitalize">optimus prime</h2>
+                            <p class="card-text mb-3 text-capitalize">autobot</p>
+                            <p class="card-text mb-3 text-capitalize">Primera Aparición: Transformers</p>
+                            <p class="card-text mb-0">Es el noble líder de los Autobots. Su misión consiste en luchar contra los Decepticons y detenerlos. Su forma alternativa es un camión Peterbilt rojo y azul. La voz es de Peter Cullen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card bg-secondary flex-row rounded-3">
+                        <div class="w-50">
+                            <img src="./transformers_img/01.jpg" class="img-fluid object-fit" alt="">
+                        </div>
+                        <div class="card-body w-50">
+                            <h2 class="card-text mb-0 text-capitalize">optimus prime</h2>
+                            <p class="card-text mb-3 text-capitalize">autobot</p>
+                            <p class="card-text mb-3 text-capitalize">Primera Aparición: Transformers</p>
+                            <p class="card-text mb-0">Es el noble líder de los Autobots. Su misión consiste en luchar contra los Decepticons y detenerlos. Su forma alternativa es un camión Peterbilt rojo y azul. La voz es de Peter Cullen.</p>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+      </div>
+    </main>
+
+    <script src="dbuniversity.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

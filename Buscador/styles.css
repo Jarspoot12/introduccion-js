@@ -1,0 +1,29 @@
+.object-fit{
+    object-fit: cover;
+    object-position: center;
+}
+.bg-form{
+    background-color: rgba(5, 2, 39, 0.456)!important;
+}
+.bg-efect{
+    background-color: rgba(0, 0, 0, 0.442)!important;
+    backdrop-filter: blur(6px)!important;
+}
+.nav-bg{
+    background-color: transparent!important;
+}
+.navbar-dark .navbar-toggler{
+    border-color: transparent;
+}
+.navbar-toggler:focus{
+    color: transparent!important;
+}
+.bg-primary{
+    background-image: url(https://i.blogs.es/9df83a/mac/1366_521.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+option{
+    background-color: rgba(6, 6, 29, 0.705)!important;
+    color: whitesmoke;
+}

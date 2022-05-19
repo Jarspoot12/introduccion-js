@@ -1,0 +1,42 @@
+.btn-w{
+    width: 200px;
+    height: 70px;
+}
+body{
+    background-color: rgba(0, 26, 62, 0.994);
+    height: 100vh;
+}
+.input{
+    border:none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.227);
+    border-radius: 10px;
+    caret-color: aquamarine;
+}
+.input:focus{
+    border:none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.422);
+
+}
+.consultaSalida{
+    font-family: 'Roboto Flex', sans-serif;
+}
+.font-btn{
+    font-size: 20px;
+    font-weight: 500;
+}
+.prueba{
+    border-radius: 10px;
+    background-color: rgb(1, 2, 42);
+    height: 50vh;
+    width: 85%;
+    box-shadow: 11px 11px 5px -3px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 11px 11px 5px -3px rgba(0,0,0,0.63);
+    -moz-box-shadow: 11px 11px 5px -3px rgba(0,0,0,0.63);
+}
+.inputInicio{
+    font-family: 'Ubuntu', sans-serif;
+    font: 500;
+}
